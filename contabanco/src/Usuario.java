@@ -16,6 +16,15 @@ public class Usuario {
 
         ContaTerminal contaTerminal = new ContaTerminal();
         Scanner scan = new Scanner(System.in);
+
+        System.out.println("Por favor, digite seu nome: ");
+        String nome = scan.nextLine();
+        contaTerminal.setNomeCliente(nome);
+
+        System.out.println("Por favor, digite o número da agência: ");
+        String agencia = scan.nextLine();
+        contaTerminal.setAgencia(agencia);
+
         System.out.println("Por favor, digite o número da conta: ");
         while(scan.hasNext()){
             if(scan.hasNextInt()){
@@ -28,14 +37,6 @@ public class Usuario {
             }
         }
 
-        System.out.println("Por favor, digite o número da agência: ");
-        String agencia = scan.nextLine();
-        contaTerminal.setAgencia(agencia);
-
-        System.out.println("Por favor, digite seu nome: ");
-        String nome = scan.nextLine();
-        contaTerminal.setNomeCliente(nome);
-
         System.out.println("Por favor, digite o valor de seu saldo: ");
         while(scan.hasNext()){
             if(scan.hasNextInt()){
@@ -47,6 +48,8 @@ public class Usuario {
                 scan.nextLine();
             }
         }
+
+
 
         System.out.println("Olá "+contaTerminal.getNomeCliente()+
                 ", obrigado por criar uma conta em nosso banco, sua agência é "+contaTerminal.getAgencia()+
