@@ -3,7 +3,18 @@
 Repositório de desafios e exercícios práticos da  **trilha JAVA** da [Digital Innovation One](https://www.dio.me/).
 
 ## Objetivo
-Aprender a linguagem **JAVA** e lógica de programação.
+Aprendizagem da linguagem **Java** partindo da sintaxe básica até a implementação de uma API utilizando Spring.
+
+Grade completa:
+
+* Princípios de Desenvolvimento de Software Colaborativo;
+* Dominando a Linguagem de Programação Java;
+* Programação Orientada a Objetos com Java;
+* Testes e Gerenciamento de Dependências em Projetos Java;
+* Banco de Dados SQL e NoSQL Para Desenvolvedores Back-end;
+* Ganhando Produtividade com Spring Framework e Java;
+* Soft Skills na Era Ágil: Conectando Pessoas e Oportunidades.
+
 
 ## Ferramentas
 [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://docs.github.com/)
