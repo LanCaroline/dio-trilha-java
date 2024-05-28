@@ -1,4 +1,4 @@
-package main.list.operacoesBasicas;
+package main.list.operacoesBasicas.listadetarefas;
 
 import java.util.List;
 

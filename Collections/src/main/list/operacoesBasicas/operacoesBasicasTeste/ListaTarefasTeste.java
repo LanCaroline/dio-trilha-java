@@ -1,7 +1,6 @@
 package main.list.operacoesBasicas.operacoesBasicasTeste;
 
-import main.list.operacoesBasicas.ListaTarefas;
-import main.list.operacoesBasicas.Tarefa;
+import main.list.operacoesBasicas.listadetarefas.ListaTarefas;
 
 public class ListaTarefasTeste {
 

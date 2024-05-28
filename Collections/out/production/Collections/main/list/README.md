@@ -23,3 +23,22 @@ Cada item é representado por uma classe chamada `Item` que possui atributos com
 * `removerItem(String nome)`: Remove um item do carrinho com base no seu nome.
 * `calcularValorTotal()`: Calcula e retorna o valor total do carrinho, levando em consideração o preço e a quantidade de cada item no carrinho.
 * `exibirItens()`: Exibe todos os itens presentes no carrinho, mostrando seus nomes, preços e quantidades.
+
+---
+# Pesquisa em List 
+
+## 1. Catálogo de Livros
+Crie uma classe chamada `CatalogoLivros` que possui uma lista de objetos do tipo `Livro` como atributo. Cada livro possui atributos como título,
+autor e ano de publicação. Implemente os seguintes métodos:
+* `adicionarLivro(Livro livro)`: Adiciona um livro ao catálogo.
+* `pesquisarPorAutor(String autor)`: Pesquisa livros por autor e retorna uma lista com os livros encontrados.
+* `pesquisarPorintervaloAnos(int anoInicial, int anoFinal)`: Pesquisa livros publicados em um determinado intervalo de anos e retorna uma lista com os livros encontrados.
+*  `pesquisarPorTitulo(String titulo)`: Pesquisa livros por título e retorna o primeiro livro encontrado.
+
+## 2. Soma de Números
+Crie uma classe chamada `SomaNumeros` que possui uma lista de números inteiros como atributos. Implemente os seguintes métodos:
+* `adicionarNumero(int numero)`: Adicionar um número à lista de números.
+* `calcularSoma()`: Calcula a soma de todos os números na lista e retorna o resultado.
+* `encontrarMaiorNumero()`: Encontra o maior número na lista e retorna o valor.
+* `encontrarMenorNumero()`: Encontra o menor número na lista e retorna o valor.
+* `exibirNumeros()`: Retorna uma lista contendo todos os números presentes na lista.
