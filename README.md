@@ -26,8 +26,6 @@ Grade completa:
 
 ## Projetos DIO Tilha JAVA
 
-### Desafio Projeto Conta Terminal 
----
-### Desafio Projeto Controle de Fluxo
----
-### Desafio Modelagem e Diagramação de um Componente iPhone
+* Desafio Projeto Conta Terminal 
+* Desafio Projeto Controle de Fluxo
+* Desafio Modelagem e Diagramação de um Componente iPhone
