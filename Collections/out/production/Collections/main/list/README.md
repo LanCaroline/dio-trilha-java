@@ -36,7 +36,7 @@ autor e ano de publicação. Implemente os seguintes métodos:
 *  `pesquisarPorTitulo(String titulo)`: Pesquisa livros por título e retorna o primeiro livro encontrado.
 
 ## 2. Soma de Números
-Crie uma classe chamada `SomaNumeros` que possui uma lista de números inteiros como atributos. Implemente os seguintes métodos:
+Crie uma classe chamada `SomaNumeros` que possui uma lista de `numeros` inteiros como atributos. Implemente os seguintes métodos:
 * `adicionarNumero(int numero)`: Adicionar um número à lista de números.
 * `calcularSoma()`: Calcula a soma de todos os números na lista e retorna o resultado.
 * `encontrarMaiorNumero()`: Encontra o maior número na lista e retorna o valor.
@@ -44,4 +44,20 @@ Crie uma classe chamada `SomaNumeros` que possui uma lista de números inteiros 
 * `exibirNumeros()`: Retorna uma lista contendo todos os números presentes na lista.
 
 ---
+
+# Ordenação em List
+
+## 1. Ordenação de Pessoas
+Crie uma classe chamada `OrdenacaoPessoas` que possui uma lista de objetos do tipo `Pessoa` como atributo. Cada pessoa possui atributos como nome,
+idade e altura. Implemente os seguintes métodos:
+* `adicionarPessoa(String nome, int idade, double altura)`: Adiciona uma pessoa à lista.
+* `ordenarPorIdade()`: Ordena as pessoas da lista por idade usando a interface Comparable.
+* `ordenarPorAltura()`: Ordena as pessoas da lista por altura usando um Comparator personalizado.
+
+## 2. Ordenação de Números
+Crie uma classe chamada `OrdenacaoNumeros` que possui uma lista de números como atributo. Implemente os seguintes métodos:
+* `adicionarNumero(int numero)`: Adiciona um número à lista.
+* `ordenarAscendente()`: Ordena os números da lista em ordem ascendente usando a interface Comparable e a class Collections.
+* `ordenarDescendente()`: Ordena os números da lista em ordem descendentes usando um Comparable e a class Collections.
+
 

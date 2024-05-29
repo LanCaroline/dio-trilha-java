@@ -1,4 +1,4 @@
-package main.list.operacoesBasicas.operacoesBasicasTeste;
+package main.list.operacoesBasicas.operacoesBasicasteste;
 
 import main.list.operacoesBasicas.listadetarefas.ListaTarefas;
 

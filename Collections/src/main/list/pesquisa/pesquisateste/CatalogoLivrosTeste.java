@@ -1,4 +1,4 @@
-package main.list.pesquisa.pesquisaTeste;
+package main.list.pesquisa.pesquisateste;
 
 import main.list.pesquisa.catalogodelivros.CatalogoLivros;
 import main.list.pesquisa.catalogodelivros.Livro;
