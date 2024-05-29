@@ -27,24 +27,33 @@ public class SomaNumeros {
     }
 
     public int encontrarMaiorNumero(){
-        List<Integer> maiornumlist = new ArrayList<>(numeroList);
+        int maiorNum = Integer.MIN_VALUE;
 
         if (!numeroList.isEmpty()) {
-            Collections.sort(maiornumlist);
-            return maiornumlist.get(maiornumlist.size()-1);
+            for(Integer numero: numeroList){
+                if(numero>= maiorNum){
+                    maiorNum = numero;
+                }
+            }
+            return maiorNum;
         }else {
-            throw new RuntimeException("Lista vazia.");
+            return 0;
         }
     }
 
     public int encontrarMenorNumero(){
-        List<Integer> menornumlist = new ArrayList<>(numeroList);
+        int menorNum = Integer.MAX_VALUE;
 
         if (!numeroList.isEmpty()) {
-            menornumlist.sort(Collections.reverseOrder());
-            return menornumlist.get(menornumlist.size()-1);
+            for (Integer numero: numeroList){
+                if(numero <= menorNum){
+                    menorNum = numero;
+                }
+            }
+            return menorNum;
+
         }else {
-            throw new RuntimeException("Lista vazia.");
+            return 0;
         }
     }
 
