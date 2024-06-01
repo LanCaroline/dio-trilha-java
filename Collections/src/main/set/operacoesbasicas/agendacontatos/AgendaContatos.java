@@ -22,7 +22,7 @@ public class AgendaContatos {
         Set<Contato> contatosComNome = new HashSet<>();
 
         for (Contato c: contatos) {
-            if(c.getNome().equalsIgnoreCase(nome)){
+            if(c.getNome().startsWith(nome)){
                 contatosComNome.add(c);
             }
         }

@@ -28,7 +28,7 @@ public class Contato {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Contato contato)) return false;
-        return getNumeroTelefone() == contato.getNumeroTelefone() && getNome().equals(contato.getNome());
+        return getNome().equals(contato.getNome());
     }
 
     @Override

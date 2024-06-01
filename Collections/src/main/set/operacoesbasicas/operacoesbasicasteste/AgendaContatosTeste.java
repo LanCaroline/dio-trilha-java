@@ -11,13 +11,17 @@ public class AgendaContatosTeste {
         agenda.adicionarContato("Vicktoria", 154651213);
         agenda.adicionarContato("Vickson", 787945641);
         agenda.adicionarContato("Vickyn", 1656565551);
+        agenda.adicionarContato("Vinicius", 1656565551);
+        agenda.adicionarContato("Arthur", 1656565551);
+        agenda.adicionarContato("Brain", 1656565551);
+
 
         System.out.println(agenda.exibirContatos());
 
         agenda.atualizarNumeroContato("Vick", 111111111);
         System.out.println(agenda.exibirContatos());
 
-        System.out.println(agenda.pesquisarPorNome("vickyn"));
+        System.out.println(agenda.pesquisarPorNome("Vick"));
 
     }
 }
