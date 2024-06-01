@@ -1,4 +1,4 @@
-package main.set.operacoesbasicas.agendacontatos;
+package main.set.pesquisa.agendacontatos;
 
 import java.util.HashSet;
 import java.util.Set;

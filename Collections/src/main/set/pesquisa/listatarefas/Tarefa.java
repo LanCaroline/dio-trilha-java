@@ -1,4 +1,4 @@
-package main.set.operacoesbasicas.listatarefas;
+package main.set.pesquisa.listatarefas;
 
 import java.util.Objects;
 

@@ -1,6 +1,6 @@
-package main.set.operacoesbasicas.operacoesbasicasteste;
+package main.set.pesquisa.pesquisateste;
 
-import main.set.operacoesbasicas.agendacontatos.AgendaContatos;
+import main.set.pesquisa.agendacontatos.AgendaContatos;
 
 public class AgendaContatosTeste {
     public static void main(String[] args) {

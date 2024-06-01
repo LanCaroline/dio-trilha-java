@@ -1,6 +1,6 @@
-package main.set.operacoesbasicas.operacoesbasicasteste;
+package main.set.pesquisa.pesquisateste;
 
-import main.set.operacoesbasicas.listatarefas.ListaTarefas;
+import main.set.pesquisa.listatarefas.ListaTarefas;
 
 public class ListaTarefasTeste {
 

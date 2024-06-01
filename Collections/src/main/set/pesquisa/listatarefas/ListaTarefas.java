@@ -1,7 +1,5 @@
-package main.set.operacoesbasicas.listatarefas;
+package main.set.pesquisa.listatarefas;
 
-
-import main.set.operacoesbasicas.agendacontatos.Contato;
 
 import java.util.HashSet;
 import java.util.Set;
