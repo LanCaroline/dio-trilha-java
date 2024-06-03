@@ -1,6 +1,4 @@
-package main.list.operacoesBasicas.listadetarefas;
-
-import java.util.List;
+package main.list.operacoesbasicas.listadetarefas;
 
 public class Tarefa{
     private String descricao;

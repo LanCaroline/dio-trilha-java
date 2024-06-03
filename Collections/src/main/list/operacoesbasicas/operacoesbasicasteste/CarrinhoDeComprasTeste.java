@@ -1,6 +1,6 @@
-package main.list.operacoesBasicas.operacoesBasicasteste;
+package main.list.operacoesbasicas.operacoesbasicasteste;
 
-import main.list.operacoesBasicas.carrinhodecompras.CarrinhoDeCompras;
+import main.list.operacoesbasicas.carrinhodecompras.CarrinhoDeCompras;
 
 public class CarrinhoDeComprasTeste {
 
